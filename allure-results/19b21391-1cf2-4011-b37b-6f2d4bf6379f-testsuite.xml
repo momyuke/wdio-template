@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660586041097' stop='1660586049802'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1660586041098' status='broken' stop='1660586049800'>
+            <name>It should login with valid credentials</name>
+            <title>It should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-104.0.5112.81'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=104.0.5112.81)</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=104.0.5112.81)
+                    at getErrorFromResponseBody (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Object.executeCommandBe (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\expect-webdriverio\lib\utils.js:47:16)
+                    at C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\expect-webdriverio\lib\matchers\element\toBeExisting.js:10:24
+                    at Browser.wrapCommandFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\test\specs\/example.e2e.js:8:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

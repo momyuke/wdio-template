@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1660680154339' stop='1660680169927'>
+    <name>My Login application</name>
+    <title>My Login application</title>
+    <test-cases>
+        <test-case start='1660680154340' status='broken' stop='1660680169926'>
+            <name>It should login with valid credentials</name>
+            <title>It should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-102.0'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Element &lt;img class="Header_user-profile-icon__3OpmP" src="/static/media/ic-profile.09605e7a.svg"> is not clickable at point (1825,31) because another element &lt;div class="generalNotifModal_modal__2hVS-  generalNotifModal_show__2KsbM"> obscures it</message>
+                <stack-trace>element click intercepted: Element &lt;img class="Header_user-profile-icon__3OpmP" src="/static/media/ic-profile.09605e7a.svg"> is not clickable at point (1825,31) because another element &lt;div class="generalNotifModal_modal__2hVS-  generalNotifModal_show__2KsbM"> obscures it
+                    at getErrorFromResponseBody (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\Teguh-Genflix\3D Objects\Learn\Automation\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,69 @@
+{
+  "start": "2022-09-02T07:25:41.980Z",
+  "end": "2022-09-02T07:26:05.821Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "102.0",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20220623063721",
+    "moz:geckodriverVersion": "0.31.0",
+    "moz:headless": false,
+    "moz:processID": 6228,
+    "moz:profile": "C:\\Users\\TEGUH-~1\\AppData\\Local\\Temp\\rust_mozprofiletyOy6y",
+    "moz:shutdownTimeout": 60000,
+    "moz:useNonSpecCompliantPointerOrigin": false,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "platformVersion": "10.0",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "sessionId": "33b6efe6-3d2d-47de-93f1-9deeb3167e21"
+  },
+  "host": "localhost",
+  "port": 4444,
+  "baseUrl": "http://localhost",
+  "framework": "mocha",
+  "duration": 23841,
+  "suites": [
+    {
+      "title": "My Login application",
+      "duration": 22954,
+      "start": "2022-09-02T07:25:41.985Z",
+      "end": "2022-09-02T07:26:04.939Z",
+      "tests": [
+        {
+          "title": "It should login with valid credentials",
+          "start": "2022-09-02T07:25:41.985Z",
+          "end": "2022-09-02T07:26:04.914Z",
+          "duration": 22929,
+          "state": "failed",
+          "screenshots": [],
+          "error": {
+            "type": "Error",
+            "message": "Can't call setValue on element with selector \"#passsword\" because element wasn't found",
+            "stack": "Error: Can't call setValue on element with selector \"#passsword\" because element wasn't found\n    at implicitWait (C:\\Users\\Teguh-Genflix\\3D Objects\\Learn\\Automation\\webdriver\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Teguh-Genflix\\3D Objects\\Learn\\Automation\\webdriver\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n    at Element.wrapCommandFn (C:\\Users\\Teguh-Genflix\\3D Objects\\Learn\\Automation\\webdriver\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n    at Context.<anonymous> (C:\\Users\\Teguh-Genflix\\3D Objects\\Learn\\Automation\\webdriver\\test\\specs\\web\\/example.e2e.js:12:9)"
+          }
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "C:\\Users\\Teguh-Genflix\\3D Objects\\Learn\\Automation\\webdriver\\test\\specs\\web\\example.e2e.js"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}

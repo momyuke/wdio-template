@@ -1,0 +1,66 @@
+{
+  "start": "2022-08-18T09:48:04.649Z",
+  "end": "2022-08-18T09:48:50.501Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "104.0.5112.81",
+    "chrome": {
+      "chromedriverVersion": "104.0.5112.79 (3cf3e8c8a07d104b9e1260c910efb8f383285dc5-refs/branch-heads/5112@{#1307})",
+      "userDataDir": "C:\\Users\\TEGUH-~1\\AppData\\Local\\Temp\\scoped_dir17776_1804243294"
+    },
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:62013"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "windows",
+    "proxy": {},
+    "se:cdp": "ws://192.168.129.76:4444/session/a8b4260506758ee78886741b030a51d7/se/cdp",
+    "se:cdpVersion": "104.0.5112.81",
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "a8b4260506758ee78886741b030a51d7"
+  },
+  "host": "localhost",
+  "port": 4444,
+  "baseUrl": "http://localhost",
+  "framework": "mocha",
+  "duration": 45852,
+  "suites": [
+    {
+      "title": "My Login application",
+      "duration": 45648,
+      "start": "2022-08-18T09:48:04.659Z",
+      "end": "2022-08-18T09:48:50.307Z",
+      "tests": [
+        {
+          "title": "It should login with valid credentials",
+          "start": "2022-08-18T09:48:04.660Z",
+          "end": "2022-08-18T09:48:50.299Z",
+          "duration": 45639,
+          "state": "passed",
+          "screenshots": []
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "C:\\Users\\Teguh-Genflix\\3D Objects\\Learn\\Automation\\webdriver\\test\\specs\\example.e2e.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}
